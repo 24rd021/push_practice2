@@ -1,0 +1,10 @@
+2024-09-05 05:16:30.085 [info] [certificates] Removed 3 expired certificates
+2024-09-05 05:16:32.876 [info] [auth] Invalid copilot token: missing token: 403 
+2024-09-05 05:16:34.476 [error] [auth] auth: CopilotAuthError: No access to GitHub Copilot found. You are currently logged in as 24rd021.
+    at authShowWarnings (/home/vscode/.vscode-remote/extensions/github.copilot-1.228.0/extension/src/auth.ts:144:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at GX.getCopilotToken (/home/vscode/.vscode-remote/extensions/github.copilot-1.228.0/extension/src/auth.ts:174:33)
+    at attemptAuthentication (/home/vscode/.vscode-remote/extensions/github.copilot-1.228.0/extension/src/auth.ts:58:9) {
+  cause: undefined
+}
+2024-09-05 05:16:34.476 [error] [auth] No access to GitHub Copilot found. You are currently logged in as 24rd021.
